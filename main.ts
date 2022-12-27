@@ -1,7 +1,7 @@
 input.onButtonPressed(Button.A, function () {
     for (let index = 0; index < 5; index++) {
         prava_led.showColor(neopixel.colors(NeoPixelColors.Violet))
-        cuteBot.colorLight(cuteBot.RGBLights.RGB_L, 0xb09eff)
+        cuteBot.colorLight(cuteBot.RGBLights.RGB_L, 0x7f00ff)
         basic.pause(500)
         prava_led.showColor(neopixel.colors(NeoPixelColors.Black))
         cuteBot.colorLight(cuteBot.RGBLights.RGB_L, 0x000000)
@@ -11,7 +11,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     for (let index = 0; index < 5; index++) {
         leva_led.showColor(neopixel.colors(NeoPixelColors.Violet))
-        cuteBot.colorLight(cuteBot.RGBLights.RGB_R, 0xb09eff)
+        cuteBot.colorLight(cuteBot.RGBLights.RGB_R, 0x7f00ff)
         basic.pause(500)
         leva_led.showColor(neopixel.colors(NeoPixelColors.Black))
         cuteBot.colorLight(cuteBot.RGBLights.RGB_R, 0x000000)
