@@ -20,6 +20,13 @@ input.onButtonPressed(Button.B, function () {
 })
 let prava_led: neopixel.Strip = null
 let leva_led: neopixel.Strip = null
+basic.showLeds(`
+    . . # . .
+    . # # # .
+    # . # . #
+    . . # . .
+    . . # . .
+    `)
 let pasek_led = neopixel.create(DigitalPin.P15, 2, NeoPixelMode.RGB)
 leva_led = pasek_led.range(0, 1)
 prava_led = pasek_led.range(1, 1)
